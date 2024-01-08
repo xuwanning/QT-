@@ -27,7 +27,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(408, 588);
+        MainWindow->resize(411, 588);
         MainWindow->setMaximumSize(QSize(1000, 10000));
         QFont font;
         font.setFamily(QString::fromUtf8("\345\256\213\344\275\223"));
@@ -649,6 +649,51 @@ public:
         tabWidget = new QTabWidget(centralWidget);
         tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
         tabWidget->setGeometry(QRect(0, 0, 411, 581));
+        tabWidget->setStyleSheet(QString::fromUtf8("QTabWidget::pane\n"
+"{\n"
+"	top:20px;\n"
+"	border:none;\n"
+"}\n"
+"QTabBar::tab\n"
+"{\n"
+"	color:#333333;\n"
+"	background:transparent;	\n"
+"	font-family:\"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
+"	font-size:14px;	\n"
+"	padding-left:-9px;\n"
+"	padding-right:-9px;\n"
+"	width:75px;\n"
+"	height:30px;\n"
+"	margin-left:0px;\n"
+"	margin-right:0px;\n"
+"} \n"
+"QTabBar::tab:selected  //\351\200\211\344\270\255\346\240\207\347\255\276\347\232\204\347\212\266\346\200\201\n"
+"{\n"
+"	color:#618BE5;\n"
+"	background:transparent;	\n"
+"	font-family:\"\345\276\256\350\275\257\351\233\205\351\273\221\";\n"
+"	font-size:14px;	\n"
+"	border-bottom:2px solid #618BE5;  //\346\240\207\347\255\276\344\270\213\351\203\250\347\232\204\346\240\267\345\274\217\n"
+"}\n"
+"QTabBar::tab:hover   //\351\274\240\346\240\207\347\247\273\345\210\260\346\240\207\347\255\276\344\270\212\347\232\204\347\212\266\346\200\201\n"
+"{\n"
+"	color:#618BE5;\n"
+"	background:transparent;	\n"
+"	font-family:\"\345\276\256\350\275\257\351\233\205\351\273"
+                        "\221\";\n"
+"	font-size:14px;	\n"
+"}\n"
+"QTabWidget::tab-bar {\n"
+"    alignment: left;  \n"
+"	top:10px;\n"
+"	left:30px;	\n"
+"} \n"
+"#detailWgt, #appealReasonWgt\n"
+"{\n"
+"	border:none;\n"
+"}\n"
+"\n"
+""));
         MainWindow->setCentralWidget(centralWidget);
 
         retranslateUi(MainWindow);
