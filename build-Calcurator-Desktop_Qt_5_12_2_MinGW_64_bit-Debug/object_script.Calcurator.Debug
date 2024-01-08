@@ -1,0 +1,15 @@
+debug/capacity.o
+debug/currency.o
+debug/main.o
+debug/mainwindow.o
+debug/programmer.o
+debug/riqi.o
+debug/science.o
+debug/standard.o
+debug/moc_capacity.o
+debug/moc_currency.o
+debug/moc_mainwindow.o
+debug/moc_programmer.o
+debug/moc_riqi.o
+debug/moc_science.o
+debug/moc_standard.o

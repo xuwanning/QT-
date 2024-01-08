@@ -1,0 +1,15 @@
+release/capacity.o
+release/currency.o
+release/main.o
+release/mainwindow.o
+release/programmer.o
+release/riqi.o
+release/science.o
+release/standard.o
+release/moc_capacity.o
+release/moc_currency.o
+release/moc_mainwindow.o
+release/moc_programmer.o
+release/moc_riqi.o
+release/moc_science.o
+release/moc_standard.o
