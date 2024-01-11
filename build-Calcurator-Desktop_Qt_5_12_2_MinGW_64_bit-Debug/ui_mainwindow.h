@@ -660,7 +660,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "\350\256\241\347\256\227\345\231\250", nullptr));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "\345\255\231\345\256\266\345\205\264-2021413120219", nullptr));
     } // retranslateUi
 
 };
